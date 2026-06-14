@@ -1,0 +1,32 @@
+# ==========================================
+# 1. GPU ACCELERATED PACKAGE INDEXES
+# ==========================================
+
+# Target PyTorch CUDA 12.4 repository
+--index-url https://pytorch.org
+torch
+torchvision
+torchaudio
+
+# Target Llama-CPP CUDA 12.4 repository 
+--extra-index-url https://github.io
+llama-cpp-python
+
+# ==========================================
+# 2. CORE UTILITIES & ML BACKENDS
+# ==========================================
+numpy==2.3.3
+pandas==2.2.2
+tqdm
+ipywidgets
+huggingface_hub==0.35.3
+
+# ==========================================
+# 3. LLM, RAG & LLAMACPP TOOLS
+# ==========================================
+chromadb==1.1.1
+tiktoken==0.12.0
+pymupdf==1.26.5
+sentence-transformers==5.1.1
+langchain==0.3.27
+langchain-community==0.3.31

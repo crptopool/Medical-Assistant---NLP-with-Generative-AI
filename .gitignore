@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Claude Code local memory/config
+.claude/
+
+# Vector databases (large binary files, rebuild locally)
+chroma_db/
+medical_db/
+
+# Data directory (PDFs, raw files — too large or licensed content)
+data/
+medical_diagnosis_manual.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
