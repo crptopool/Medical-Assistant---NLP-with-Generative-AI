@@ -10,7 +10,7 @@ medical_db/
 
 # Data directory (PDFs, raw files — too large or licensed content)
 data/
-medical_diagnosis_manual.pdf
+
 
 # Python cache
 __pycache__/
